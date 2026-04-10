@@ -1,0 +1,191 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: gold;
+}
+
+/* Navbar */
+#navbar {
+  background-color: gold;
+  padding: 1em;
+}
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+#navbar ul li {
+  margin: 0 15px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: black;
+  color: gold;
+}
+#hero h1 {
+  font-size: 3em;
+}
+#hero p {
+  font-size: 1.2em;
+}
+#trump-image {
+  margin-top: 20px;
+  width: 100;
+  border: 5px solid gold;
+  border-radius: 10px;
+}
+
+/* Content Section */
+#content {
+  padding: 50px 20px;
+  background-color: gold;
+  color: black;
+}
+#content h2 {
+  margin-bottom: 20px;
+}
+#content button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: gold;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#content button:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* Main Body */
+#main {
+  padding: 50px 20px;
+  background-color: black;
+  color: gold;
+}
+#main h2 {
+  margin-bottom: 20px;
+}
+#main button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: gold;
+  color: black;
+  border: 2px solid gold;
+  cursor: pointer;
+}
+#main button:hover {
+  background-color: black;
+  color: gold;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: gold;
+  color: black;
+}
+.hidden {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #111;
+  color: #fff;
+  border-left: 4px solid gold;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #111;
+  padding: 10px;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+#navbar a {
+  color: gold;
+  text-decoration: none;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#trump-image {
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Sections */
+section, main {
+  padding: 40px 20px;
+}
+
+/* Hidden panels */
+.hidden {
+  display: none;
+  margin-top: 15px;
+  padding: 15px;
+  background: #1a1a1a;
+  border-left: 4px solid gold;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background: gold;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 0 10px gold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}

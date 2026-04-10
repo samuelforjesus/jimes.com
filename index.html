@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World War Three</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#content">Overview</a></li>
+      <li><a href="#main">Impacts</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <h1>World War Three</h1>
+    <p>A Global Conflict Scenario Embedded In Oil</p>
+    <img src="image/donald trump.jpg" alt="Hero Image" id="trump-image">
+  </section>
+
+  <!-- Overview -->
+  <section id="content">
+    <h2>Overview</h2>
+    <p>
+      World War Three is a hypothetical global conflict often discussed in political and military analysis.
+    </p>
+
+    <button onclick="toggleInfo('detailsInfo')">More Details</button>
+    <div id="detailsInfo" class="hidden">
+      <h3>Global Tensions</h3>
+      <p>
+        Rising geopolitical tensions between major powers increase the risk of conflict escalation.
+      </p>
+      <h3>Technology Warfare</h3>
+      <p>
+        Modern wars may include cyber attacks, drones, and AI-driven military systems.
+      </p>
+      <h3>Historical Lessons</h3>
+      <p>
+        Past world wars show how small conflicts can escalate into global wars.
+      </p>
+    </div>
+
+    <button onclick="toggleInfo('themesInfo')">Related Themes</button>
+    <div id="themesInfo" class="hidden">
+      <h3>Power Struggles</h3>
+      <p>Competition between global superpowers shapes international relations.</p>
+      <h3>Nuclear Deterrence</h3>
+      <p>Mutually assured destruction has prevented full-scale nuclear war so far.</p>
+    </div>
+  </section>
+
+  <!-- Impacts -->
+  <main id="main">
+    <h2>Potential Impacts</h2>
+
+    <!-- ECONOMIC -->
+    <button onclick="toggleInfo('economyInfo')">Economic Impact</button>
+    <div id="economyInfo" class="hidden">
+      <h3>Global Financial Collapse</h3>
+      <p>
+        Stock markets could crash worldwide as investors panic and governments shift resources to military spending.
+      </p>
+
+      <h3>Oil Crisis</h3>
+      <p>
+        Since oil is a key global resource, control over oil-rich regions could trigger economic warfare and extreme price spikes.
+      </p>
+
+      <h3>Trade Breakdown</h3>
+      <p>
+        International trade routes would be disrupted, causing shortages of food, fuel, and medicine.
+      </p>
+    </div>
+
+    <!-- SOCIAL -->
+    <button onclick="toggleInfo('societyInfo')">Social Impact</button>
+    <div id="societyInfo" class="hidden">
+      <h3>Mass Displacement</h3>
+      <p>
+        Millions of people could be forced to flee their homes due to conflict zones.
+      </p>
+
+      <h3>Global Fear & Unrest</h3>
+      <p>
+        Governments may face protests, riots, and instability due to panic and economic hardship.
+      </p>
+
+      <h3>Humanitarian Crisis</h3>
+      <p>
+        Access to food, water, and healthcare could collapse in war-affected regions.
+      </p>
+    </div>
+
+    <!-- NUCLEAR -->
+    <button onclick="toggleInfo('nuclearInfo')">Nuclear Impact</button>
+    <div id="nuclearInfo" class="hidden">
+      <h3>Mass Destruction</h3>
+      <p>
+        Nuclear weapons could destroy entire cities within seconds, causing unimaginable loss of life.
+      </p>
+
+      <h3>Radiation Fallout</h3>
+      <p>
+        Radiation would contaminate air, water, and soil, making areas uninhabitable for decades.
+      </p>
+
+      <h3>Nuclear Winter</h3>
+      <p>
+        Smoke and debris could block sunlight, lowering global temperatures and affecting agriculture worldwide.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>&copy; 2026 World War Three Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
